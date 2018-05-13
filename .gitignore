@@ -1,0 +1,21 @@
+db.sqlite3
+
+.py[cod]
+
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# IDE
+/.vscode
+/.idea
+
+
+# Environments
+.env

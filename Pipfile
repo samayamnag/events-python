@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+django = "*"
+djangorestframework = "*"
+django-rest-framework-mongoengine = "*"
+"django-2.0" = {git = "https://github.com/MongoEngine/django-mongoengine.git"}
+python-decouple = "*"
+unipath = "*"
+blinker = "*"
+pillow = "*"
+
+[dev-packages]
+pylint = "*"
+
+[requires]
+python_version = "3.6"
